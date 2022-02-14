@@ -1,0 +1,174 @@
+body {
+    margin: auto 0;
+}
+
+.banner, .about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    height: 540px;
+}
+
+.banner::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 600px;
+    opacity: 0.5;
+    background-image: url('gratiaBanner.jpg');
+    background-color: #ccceec;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+
+
+.bannerLogo {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 99px 99px 99px 99px;
+    opacity: 1;
+    padding-top: ;
+}   
+
+.bannerText, Button {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bannerText {
+    color: #ffffff;
+    font-size: 29px;
+    font-style: italic;
+    font-weight: 400;
+    text-shadow: 0px 0px 11px rgb(0 0 0 / 70%)
+}
+
+button {
+    background-color: #69989D;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 3px;
+    margin: 40px;
+}
+
+
+/* nav */
+
+.navBar {
+    /* position: relative; */
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ddefea;
+}
+
+.home, .story, .shop, .cart, .account {
+    padding: 40px 50px;
+    font-family: 'Cedarville Cursive', cursive;
+    color: #69989D;
+    font-size: 35px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.about {
+    background-color: #fff3e9;
+    height: 300px;
+    padding: 20px;
+}
+
+.homeTitle {
+    margin: 0 0 0 0;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 51px;
+    font-weight: 400;
+    color: #69989D;
+    text-align: center;
+}
+
+.homeText {
+    padding: 0 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #69989D;
+    text-align: center;
+}
+
+
+/* offer section */
+
+.offer {
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ddefea;
+}
+
+.detailContainer {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+img {
+    width: 247.2px;
+    height: 247.2px;
+    margin: 10px;
+}
+
+.detailTitle {
+    color: #69989D;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.detailDesc {
+    color: #69989D;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* collection */
+
+.collection {
+    background-color: #fff3e9;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collectionImgCont {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.imageCollection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.collectionLink {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #69989D;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.collectionImgCont img {
+    width: 321px;
+    height: 411px;
+}
